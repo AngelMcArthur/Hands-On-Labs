@@ -49,7 +49,6 @@ Welcome! This repo is dedicated to my practical cybersecurity labs I've complete
 | [Placeholder7]()               | Phishing Email Analysis | Placeholder             |    tmp    |
 | [Placeholder8]()               |Vulnerability Management | Placeholder             |    tmp    |
 | [Placeholder9]()               |           EDR           | Placeholder             |    tmp    |
-| [Placeholder10]()              |      Threat Hunting     | Placeholder             |    tmp    |
 
 ---
 
