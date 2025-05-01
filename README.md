@@ -19,21 +19,6 @@ Welcome! This repo is dedicated to my practical cybersecurity labs I've complete
 
 ---
 
-## Home Labs (Work in progress)
-- These labs are self-hosted and built in a hypervisor (VirtualBox, VMWare, Qemu, Hyper-V) of your choosing.
-
-
-|                       **Project**                     |             **Tools Used**              | Objective |
-| ------------------------------------------------------|-----------------------------------------|-----------|
-| [Placeholder1]()                                      | Placeholder                             |    tmp    |
-| [Placeholder2]()                                      | Placeholder                             |    tmp    |
-| [Placeholder3]()                                      | Placeholder                             |    tmp    |
-| [Placeholder4]()                                      | Placeholder                             |    tmp    |
-| [Placeholder5]()                                      | Placeholder                             |    tmp    |
-
-
----
-
 ## SOC Analyst Skills Labs (Work in progress)
 - These labs demonstrate proficiency in essential tools used by SOC/Cybersecurity Analysts.
 
@@ -63,6 +48,20 @@ Welcome! This repo is dedicated to my practical cybersecurity labs I've complete
 | [Placeholder3]()                                      | Rust                                    |    tmp    |
 | [Placeholder4]()                                      | Rust                                    |    tmp    |
 | [Placeholder5]()                                      | C                                       |    tmp    |
+
+---
+
+## Home Labs (Work in progress)
+- These labs are self-hosted and built in a hypervisor (VirtualBox, VMWare, Qemu, Hyper-V) of your choosing.
+
+
+|                       **Project**                     |             **Tools Used**              | Objective |
+| ------------------------------------------------------|-----------------------------------------|-----------|
+| [Placeholder1]()                                      | Placeholder                             |    tmp    |
+| [Placeholder2]()                                      | Placeholder                             |    tmp    |
+| [Placeholder3]()                                      | Placeholder                             |    tmp    |
+| [Placeholder4]()                                      | Placeholder                             |    tmp    |
+| [Placeholder5]()                                      | Placeholder                             |    tmp    |
 
 
 ---
