@@ -1,11 +1,18 @@
 # 🔐 Hands-On Labs
 
-Welcome! This repo is dedicated to my practical cybersecurity labs I've completed. Click on a platform below for detailed write-ups.
+
+<br/>
+
+
+> Welcome! This repo is dedicated to my practical cybersecurity labs I've completed. Click on a platform below for detailed write-ups.
+
+
+<br/>
 
 
 ---
 
-## Cloud Labs
+## ☁️ Cloud Labs
 - These labs are built in the cloud (AWS, Azure, GCP) and use cloud-native services.
 
 
@@ -20,29 +27,35 @@ Welcome! This repo is dedicated to my practical cybersecurity labs I've complete
 | [Coming Soon]()                               |         Azure           | Placeholder                             |    Coming Soon    |
 
 
+<br/>
+
+
 ---
 
-## SOC Analyst Skills Labs (Work in progress)
+## 🛡️ SOC Analyst Skills Labs
 - These labs demonstrate proficiency in essential tools used by SOC/Cybersecurity Analysts.
 
 
-|            **Project**        |      **Category**       |        **Tools**        |   **Objective**   |
-| ------------------------------|-------------------------|-------------------------|-------------------|
-| [Coming Soon]()               |     Network Analysis    | Placeholder             |    Coming Soon    |
-| [Coming Soon]()               |     Network Analysis    | Placeholder             |    Coming Soon    |
-| [Coming Soon]()               | Phishing Email Analysis | Placeholder             |    Coming Soon    |
-| [Coming Soon]()               |Vulnerability Management | Placeholder             |    Coming Soon    |
-| [Coming Soon]()               |  DFIR - Memory Analysis | Placeholder             |    Coming Soon    |
-| [Coming Soon]()               |   SIEM - Log Analysis   | Placeholder             |    Coming Soon    |
-| [Coming Soon]()               |           GRC           | Placeholder             |    Coming Soon    |
-| [Coming Soon]()               |     Malware Analysis    | Placeholder             |    Coming Soon    |
-| [Coming Soon]()               |   Threat Intelligence   | Placeholder             |    Coming Soon    |
-| [Coming Soon]()               |           EDR           | Placeholder             |    Coming Soon    |
+|                                                              **Project**                                                         |      **Category**       |           **Tools**          |       **Objective**       |
+| ---------------------------------------------------------------------------------------------------------------------------------|-------------------------|------------------------------|---------------------------|
+| [**Building Snort 3 From Source**](./SOC%20Analyst%20Skills%20Labs/Building%20Snort%203%20From%20Source.md)                      |     Network Analysis    |Snort 3, Ubuntu + Rocky Linux |   Build + Test Snort 3    |
+| [**Malware Traffic Analysis - OriginLogger**](./SOC%20Analyst%20Skills%20Labs/Malware%20Traffic%20Analysis%20-%20OriginLogger.md)|     Network Analysis    |  Wireshark, PCAP, Windows 11 |   Analyze Malware PCAP    |
+| [**Phishing Email Analysis Lab**](./SOC%20Analyst%20Skills%20Labs/Phishing%20Email%20Analysis%20Lab.md)                          | Phishing Email Analysis |  Spam, Thunderbird, VSCode   |Investigate Phishing Emails|
+| [**Learn Qualys Vulnerability Management**](./SOC%20Analyst%20Skills%20Labs/Learn%20Qualys%20Vulnerability%20Management.md)      |Vulnerability Management |Qualys, VirtualBox, Windows 11| Remediate Vulnerabilities |
+| [Coming Soon]()                                                                                                                  |  DFIR - Memory Analysis | -                            |      Coming Soon          |
+| [Coming Soon]()                                                                                                                  |   SIEM - Log Analysis   | -                            |      Coming Soon          |
+| [Coming Soon]()                                                                                                                  |           GRC           | -                            |      Coming Soon          |
+| [Coming Soon]()                                                                                                                  |     Malware Analysis    | -                            |      Coming Soon          |
+| [Coming Soon]()                                                                                                                  |   Threat Intelligence   | -                            |      Coming Soon          |
+| [Coming Soon]()                                                                                                                  |           EDR           | -                            |      Coming Soon          |
+
+
+<br/>
 
 
 ---
 
-## Coding Labs (Work in progress)
+## 👾 Coding Labs
 - A few of my cybersecurity coding projects from courses I've taken or of my own design.
 
 
@@ -55,9 +68,12 @@ Welcome! This repo is dedicated to my practical cybersecurity labs I've complete
 | [Coming Soon]()                                                                                      | C          |Coming Soon                              |
 
 
+<br/>
+
+
 ---
 
-## Home Labs (Work in progress)
+## 🏡 Home Labs
 - These labs are self-hosted and built in a hypervisor (VirtualBox, VMWare, Qemu, Hyper-V) of your choosing.
 
 
@@ -70,9 +86,12 @@ Welcome! This repo is dedicated to my practical cybersecurity labs I've complete
 | [Coming Soon]()                                       | -                                       |    Coming Soon    |
 
 
+<br/>
+
+
 ---
 
-## Archived Labs (Complete)
+## 🗃️ Archived Labs
 - These are labs I've created that were great for exposure to the tools at the time, but now I require more in-depth projects to deeper my understanding.
 
 
@@ -80,9 +99,12 @@ Welcome! This repo is dedicated to my practical cybersecurity labs I've complete
 | --------------------------------------------------------------------------------------------|-----------------------------------------|-------------------------------|
 | [**Linux Project**](./Archived%20Labs/Linux%20Project/README.md)                            | Oracle VirtualBox, SHA256, Ubuntu Linux |Install + Configure Ubuntu     |
 | [**Project Management Project**](./Archived%20Labs/Project%20Management%20Project/README.md)| ClickUp, Gantt, Kanban                  |Setup PM software              |
-| [**Harden Linux (Cyberseurity)**](./Archived%20Labs/Linux%20Hardening%20Project/README.md)  | Ubuntu Linux, App Armor, Lynis, ufw     |Harden Ubuntu Linux            |
+| [**Harden Linux**](./Archived%20Labs/Linux%20Hardening%20Project/README.md)                 | Ubuntu Linux, App Armor, Lynis, ufw     |Harden Ubuntu Linux            |
 | [**Network Monitoring/SIEM Build**](./Archived%20Labs/Networking%20Project/README.md)       | Wazuh, Suricata, ufw                    |Build Wazuh + Suricata SIEM lab|
 | [**IT Project**](./Archived%20Labs/IT%20Project/README.md)                                  | Docker Desktop, Oracle VirtualBox       |Install Docker Desktop         |
+
+
+<br/>
 
 
 ---
