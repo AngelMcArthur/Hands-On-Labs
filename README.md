@@ -9,13 +9,13 @@ Welcome! This repo is dedicated to my practical cybersecurity labs I've complete
 - These labs are built in the cloud (AWS, Azure, GCP) and use cloud-native services.
 
 
-|                       **Project**             |      **Platform**       |              **Tools Used**             | Objective |
-| ----------------------------------------------|-------------------------|-----------------------------------------|-----------|
-| [Placeholder1]()                              |          AWS            | Placeholder                             |    tmp    |
-| [Placeholder2]()                              |         Azure           | Placeholder                             |    tmp    |
-| [Placeholder3]()                              |          GCP            | Placeholder                             |    tmp    |
-| [Placeholder4]()                              |          AWS            | Placeholder                             |    tmp    |
-| [Placeholder5]()                              |         Azure           | Placeholder                             |    tmp    |
+|                       **Project**             |      **Platform**       |              **Tools Used**             |   **Objective**   |
+| ----------------------------------------------|-------------------------|-----------------------------------------|-------------------|
+| [Coming Soon]()                               |          AWS            | Placeholder                             |    Coming Soon    |
+| [Coming Soon]()                               |         Azure           | Placeholder                             |    Coming Soon    |
+| [Coming Soon]()                               |          GCP            | Placeholder                             |    Coming Soon    |
+| [Coming Soon]()                               |          AWS            | Placeholder                             |    Coming Soon    |
+| [Coming Soon]()                               |         Azure           | Placeholder                             |    Coming Soon    |
 
 
 ---
@@ -24,17 +24,17 @@ Welcome! This repo is dedicated to my practical cybersecurity labs I've complete
 - These labs demonstrate proficiency in essential tools used by SOC/Cybersecurity Analysts.
 
 
-|            **Project**         |      **Category**       |        **Tools**        | Objective |
-| -------------------------------|-------------------------|-------------------------|-----------|
-| [Placeholder1]()               |  DFIR - Memory Analysis | Placeholder             |    tmp    |
-| [Placeholder2]()               |   SIEM - Log Analysis   | Placeholder             |    tmp    |
-| [Placeholder3]()               |           GRC           | Placeholder             |    tmp    |
-| [Placeholder4]()               |     Malware Analysis    | Placeholder             |    tmp    |
-| [Placeholder5]()               |     Network Analysis    | Placeholder             |    tmp    |
-| [Placeholder6]()               |   Threat Intelligence   | Placeholder             |    tmp    |
-| [Placeholder7]()               | Phishing Email Analysis | Placeholder             |    tmp    |
-| [Placeholder8]()               |Vulnerability Management | Placeholder             |    tmp    |
-| [Placeholder9]()               |           EDR           | Placeholder             |    tmp    |
+|            **Project**        |      **Category**       |        **Tools**        | **Objective** |
+| ------------------------------|-------------------------|-------------------------|-----------|
+| [Coming Soon]()               |  DFIR - Memory Analysis | Placeholder             |    Coming Soon    |
+| [Coming Soon]()               |   SIEM - Log Analysis   | Placeholder             |    Coming Soon    |
+| [Coming Soon]()               |           GRC           | Placeholder             |    Coming Soon    |
+| [Coming Soon]()               |     Malware Analysis    | Placeholder             |    Coming Soon    |
+| [Coming Soon]()               |     Network Analysis    | Placeholder             |    Coming Soon    |
+| [Coming Soon]()               |   Threat Intelligence   | Placeholder             |    Coming Soon    |
+| [Coming Soon]()               | Phishing Email Analysis | Placeholder             |    Coming Soon    |
+| [Coming Soon]()               |Vulnerability Management | Placeholder             |    Coming Soon    |
+| [Coming Soon]()               |           EDR           | Placeholder             |    Coming Soon    |
 
 
 ---
@@ -60,11 +60,11 @@ Welcome! This repo is dedicated to my practical cybersecurity labs I've complete
 
 |                       **Project**                     |             **Tools Used**              |    **Objective**  |
 | ------------------------------------------------------|-----------------------------------------|-------------------|
-| [Coming Soon]()                                      | Placeholder                             |    Coming Soon    |
-| [Coming Soon]()                                      | Placeholder                             |    Coming Soon    |
-| [Coming Soon]()                                      | Placeholder                             |    Coming Soon    |
-| [Coming Soon]()                                      | Placeholder                             |    Coming Soon    |
-| [Coming Soon]()                                      | Placeholder                             |    Coming Soon    |
+| [Coming Soon]()                                       | Placeholder                             |    Coming Soon    |
+| [Coming Soon]()                                       | Placeholder                             |    Coming Soon    |
+| [Coming Soon]()                                       | Placeholder                             |    Coming Soon    |
+| [Coming Soon]()                                       | Placeholder                             |    Coming Soon    |
+| [Coming Soon]()                                       | Placeholder                             |    Coming Soon    |
 
 
 ---
@@ -73,13 +73,13 @@ Welcome! This repo is dedicated to my practical cybersecurity labs I've complete
 - These are labs I've created that were great for exposure to the tools at the time, but now I require more in-depth projects to deeper my understanding.
 
 
-|                                **Project**                              |              **Tools Used**             | Objective |
-| ------------------------------------------------------------------------|-----------------------------------------|-----------|
-| [Linux Project](./Linux%20Project/README.md)                            | Oracle VirtualBox, SHA256, Ubuntu Linux |    tmp    |
-| [Project Management Project](./Project%20Management%20Project/README.md)| ClickUp, Gantt, Kanban                  |    tmp    |
-| [Harden Linux (Cyberseurity)](./Linux%20Hardening%20Project/README.md)  | Ubuntu Linux, App Armor, Lynis, ufw     |    tmp    |
-| [Network Monitoring/SIEM Build](./Networking%20Project/README.md)       | Wazuh, Suricata, ufw                    |    tmp    |
-| [IT Project](./IT%20Project/README.md)                                  | Docker Desktop, Oracle VirtualBox       |    tmp    |
+|                                       **Project**                                       |              **Tools Used**             | **Objective** |
+| ----------------------------------------------------------------------------------------|-----------------------------------------|---------------|
+| [Linux Project](./Archived%20Labs/Linux%20Project/README.md)                            | Oracle VirtualBox, SHA256, Ubuntu Linux |    tmp        |
+| [Project Management Project](./Archived%20Labs/Project%20Management%20Project/README.md)| ClickUp, Gantt, Kanban                  |    tmp        |
+| [Harden Linux (Cyberseurity)](./Archived%20Labs/Linux%20Hardening%20Project/README.md)  | Ubuntu Linux, App Armor, Lynis, ufw     |    tmp        |
+| [Network Monitoring/SIEM Build](./Archived%20Labs/Networking%20Project/README.md)       | Wazuh, Suricata, ufw                    |    tmp        |
+| [IT Project](./Archived%20Labs/IT%20Project/README.md)                                  | Docker Desktop, Oracle VirtualBox       |    tmp        |
 
 
 ---
