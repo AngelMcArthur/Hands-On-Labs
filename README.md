@@ -73,13 +73,13 @@ Welcome! This repo is dedicated to my practical cybersecurity labs I've complete
 - These are labs I've created that were great for exposure to the tools at the time, but now I require more in-depth projects to deeper my understanding.
 
 
-|                                       **Project**                                       |              **Tools Used**             | **Objective** |
-| ----------------------------------------------------------------------------------------|-----------------------------------------|---------------|
-| [Linux Project](./Archived%20Labs/Linux%20Project/README.md)                            | Oracle VirtualBox, SHA256, Ubuntu Linux |    tmp        |
-| [Project Management Project](./Archived%20Labs/Project%20Management%20Project/README.md)| ClickUp, Gantt, Kanban                  |    tmp        |
-| [Harden Linux (Cyberseurity)](./Archived%20Labs/Linux%20Hardening%20Project/README.md)  | Ubuntu Linux, App Armor, Lynis, ufw     |    tmp        |
-| [Network Monitoring/SIEM Build](./Archived%20Labs/Networking%20Project/README.md)       | Wazuh, Suricata, ufw                    |    tmp        |
-| [IT Project](./Archived%20Labs/IT%20Project/README.md)                                  | Docker Desktop, Oracle VirtualBox       |    tmp        |
+|                                           **Project**                                       |              **Tools Used**             |         **Objective**         |
+| --------------------------------------------------------------------------------------------|-----------------------------------------|-------------------------------|
+| [**Linux Project**](./Archived%20Labs/Linux%20Project/README.md)                            | Oracle VirtualBox, SHA256, Ubuntu Linux |Install + Configure Ubuntu     |
+| [**Project Management Project**](./Archived%20Labs/Project%20Management%20Project/README.md)| ClickUp, Gantt, Kanban                  |Setup PM software              |
+| [**Harden Linux (Cyberseurity)**](./Archived%20Labs/Linux%20Hardening%20Project/README.md)  | Ubuntu Linux, App Armor, Lynis, ufw     |Harden Ubuntu Linux            |
+| [**Network Monitoring/SIEM Build**](./Archived%20Labs/Networking%20Project/README.md)       | Wazuh, Suricata, ufw                    |Build Wazuh + Suricata SIEM lab|
+| [**IT Project**](./Archived%20Labs/IT%20Project/README.md)                                  | Docker Desktop, Oracle VirtualBox       |Install Docker Desktop         |
 
 
 ---
