@@ -2,6 +2,7 @@
 
 Welcome! This repo is dedicated to my practical cybersecurity labs I've completed. Click on a platform below for detailed write-ups.
 
+
 ---
 
 ## Cloud Labs
@@ -35,19 +36,21 @@ Welcome! This repo is dedicated to my practical cybersecurity labs I've complete
 | [Placeholder8]()               |Vulnerability Management | Placeholder             |    tmp    |
 | [Placeholder9]()               |           EDR           | Placeholder             |    tmp    |
 
+
 ---
 
 ## Coding Labs (Work in progress)
 - A few of my cybersecurity coding projects from courses I've taken or of my own design.
 
 
-|                       **Project**                     |             **Language**                | Objective |
-| ------------------------------------------------------|-----------------------------------------|-----------|
-| [Placeholder1]()                                      | Python                                  |    tmp    |
-| [Placeholder2]()                                      | Python                                  |    tmp    |
-| [Placeholder3]()                                      | Rust                                    |    tmp    |
-| [Placeholder4]()                                      | Rust                                    |    tmp    |
-| [Placeholder5]()                                      | C                                       |    tmp    |
+|                                              **Project**                                             |**Language**|              **Objective**              |
+| -----------------------------------------------------------------------------------------------------|------------|-----------------------------------------|
+| [**Multi‑Threaded Python Port Scanner**](./Coding%20Labs/Multi‑Threaded%20Python%20Port%20Scanner.md)| Python     |Build a high‑performance TCP port scanner|
+| [Coming Soon]()                                                                                      | Python     |Coming Soon                              |
+| [Coming Soon]()                                                                                      | Rust       |Coming Soon                              |
+| [Coming Soon]()                                                                                      | Rust       |Coming Soon                              |
+| [Coming Soon]()                                                                                      | C          |Coming Soon                              |
+
 
 ---
 
@@ -55,13 +58,13 @@ Welcome! This repo is dedicated to my practical cybersecurity labs I've complete
 - These labs are self-hosted and built in a hypervisor (VirtualBox, VMWare, Qemu, Hyper-V) of your choosing.
 
 
-|                       **Project**                     |             **Tools Used**              | Objective |
-| ------------------------------------------------------|-----------------------------------------|-----------|
-| [Placeholder1]()                                      | Placeholder                             |    tmp    |
-| [Placeholder2]()                                      | Placeholder                             |    tmp    |
-| [Placeholder3]()                                      | Placeholder                             |    tmp    |
-| [Placeholder4]()                                      | Placeholder                             |    tmp    |
-| [Placeholder5]()                                      | Placeholder                             |    tmp    |
+|                       **Project**                     |             **Tools Used**              |    **Objective**  |
+| ------------------------------------------------------|-----------------------------------------|-------------------|
+| [Coming Soon]()                                      | Placeholder                             |    Coming Soon    |
+| [Coming Soon]()                                      | Placeholder                             |    Coming Soon    |
+| [Coming Soon]()                                      | Placeholder                             |    Coming Soon    |
+| [Coming Soon]()                                      | Placeholder                             |    Coming Soon    |
+| [Coming Soon]()                                      | Placeholder                             |    Coming Soon    |
 
 
 ---
@@ -77,5 +80,6 @@ Welcome! This repo is dedicated to my practical cybersecurity labs I've complete
 | [Harden Linux (Cyberseurity)](./Linux%20Hardening%20Project/README.md)  | Ubuntu Linux, App Armor, Lynis, ufw     |    tmp    |
 | [Network Monitoring/SIEM Build](./Networking%20Project/README.md)       | Wazuh, Suricata, ufw                    |    tmp    |
 | [IT Project](./IT%20Project/README.md)                                  | Docker Desktop, Oracle VirtualBox       |    tmp    |
+
 
 ---
