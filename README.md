@@ -12,9 +12,11 @@ Welcome! This repo is dedicated to my practical cybersecurity labs I've complete
 |                       **Project**             |      **Platform**       |              **Tools Used**             |   **Objective**   |
 | ----------------------------------------------|-------------------------|-----------------------------------------|-------------------|
 | [Coming Soon]()                               |          AWS            | Placeholder                             |    Coming Soon    |
-| [Coming Soon]()                               |         Azure           | Placeholder                             |    Coming Soon    |
-| [Coming Soon]()                               |          GCP            | Placeholder                             |    Coming Soon    |
 | [Coming Soon]()                               |          AWS            | Placeholder                             |    Coming Soon    |
+| [Coming Soon]()                               |          AWS            | Placeholder                             |    Coming Soon    |
+| [Coming Soon]()                               |          AWS            | Placeholder                             |    Coming Soon    |
+| [Coming Soon]()                               |         Azure           | Placeholder                             |    Coming Soon    |
+| [Coming Soon]()                               |         Azure           | Placeholder                             |    Coming Soon    |
 | [Coming Soon]()                               |         Azure           | Placeholder                             |    Coming Soon    |
 
 
@@ -24,16 +26,17 @@ Welcome! This repo is dedicated to my practical cybersecurity labs I've complete
 - These labs demonstrate proficiency in essential tools used by SOC/Cybersecurity Analysts.
 
 
-|            **Project**        |      **Category**       |        **Tools**        | **Objective** |
-| ------------------------------|-------------------------|-------------------------|-----------|
+|            **Project**        |      **Category**       |        **Tools**        |   **Objective**   |
+| ------------------------------|-------------------------|-------------------------|-------------------|
+| [Coming Soon]()               |     Network Analysis    | Placeholder             |    Coming Soon    |
+| [Coming Soon]()               |     Network Analysis    | Placeholder             |    Coming Soon    |
+| [Coming Soon]()               | Phishing Email Analysis | Placeholder             |    Coming Soon    |
+| [Coming Soon]()               |Vulnerability Management | Placeholder             |    Coming Soon    |
 | [Coming Soon]()               |  DFIR - Memory Analysis | Placeholder             |    Coming Soon    |
 | [Coming Soon]()               |   SIEM - Log Analysis   | Placeholder             |    Coming Soon    |
 | [Coming Soon]()               |           GRC           | Placeholder             |    Coming Soon    |
 | [Coming Soon]()               |     Malware Analysis    | Placeholder             |    Coming Soon    |
-| [Coming Soon]()               |     Network Analysis    | Placeholder             |    Coming Soon    |
 | [Coming Soon]()               |   Threat Intelligence   | Placeholder             |    Coming Soon    |
-| [Coming Soon]()               | Phishing Email Analysis | Placeholder             |    Coming Soon    |
-| [Coming Soon]()               |Vulnerability Management | Placeholder             |    Coming Soon    |
 | [Coming Soon]()               |           EDR           | Placeholder             |    Coming Soon    |
 
 
@@ -60,11 +63,11 @@ Welcome! This repo is dedicated to my practical cybersecurity labs I've complete
 
 |                       **Project**                     |             **Tools Used**              |    **Objective**  |
 | ------------------------------------------------------|-----------------------------------------|-------------------|
-| [Coming Soon]()                                       | Placeholder                             |    Coming Soon    |
-| [Coming Soon]()                                       | Placeholder                             |    Coming Soon    |
-| [Coming Soon]()                                       | Placeholder                             |    Coming Soon    |
-| [Coming Soon]()                                       | Placeholder                             |    Coming Soon    |
-| [Coming Soon]()                                       | Placeholder                             |    Coming Soon    |
+| [Coming Soon]()                                       | -                                       |    Coming Soon    |
+| [Coming Soon]()                                       | -                                       |    Coming Soon    |
+| [Coming Soon]()                                       | -                                       |    Coming Soon    |
+| [Coming Soon]()                                       | -                                       |    Coming Soon    |
+| [Coming Soon]()                                       | -                                       |    Coming Soon    |
 
 
 ---
