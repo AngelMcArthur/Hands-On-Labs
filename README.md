@@ -4,7 +4,7 @@
 <br/>
 
 
-> Welcome! This repo is dedicated to my practical cybersecurity labs I've completed. Click on a platform below for detailed write-ups.
+-  Welcome! This repo is dedicated to my practical cybersecurity labs I've completed. Click on a platform below for detailed write-ups.
 
 
 <br/>
@@ -16,15 +16,15 @@
 - These labs are built in the cloud (AWS, Azure, GCP) and use cloud-native services.
 
 
-|                       **Project**             |      **Platform**       |              **Tools Used**             |   **Objective**   |
-| ----------------------------------------------|-------------------------|-----------------------------------------|-------------------|
-| [Coming Soon]()                               |          AWS            | Placeholder                             |    Coming Soon    |
-| [Coming Soon]()                               |          AWS            | Placeholder                             |    Coming Soon    |
-| [Coming Soon]()                               |          AWS            | Placeholder                             |    Coming Soon    |
-| [Coming Soon]()                               |          AWS            | Placeholder                             |    Coming Soon    |
-| [Coming Soon]()                               |         Azure           | Placeholder                             |    Coming Soon    |
-| [Coming Soon]()                               |         Azure           | Placeholder                             |    Coming Soon    |
-| [Coming Soon]()                               |         Azure           | Placeholder                             |    Coming Soon    |
+|                                                               **Project**                                             |**Platform**|                    **Tools Used**                     |         **Objective**        |
+| ----------------------------------------------------------------------------------------------------------------------|------------|-------------------------------------------------------|------------------------------|
+| [**AWS IAM Security Lab**](./Cloud%20Labs/AWS%20IAM%20Security%20Lab.md)                                              |     AWS    |                  EC2, IAM, MFA, Alias                 |    Configure IAM Policies    |
+| [**Build a Security Monitoring System**](./Cloud%20Labs/Build%20a%20Security%20Monitoring%20System.md)                |     AWS    | Secrets Manager, CloudTrail, CloudWatch, SNS, S3, CLI |    Monitor Sensitive Info    |
+| [**Threat Detection with Amazon GuardDuty**](./Cloud%20Labs/Threat%20Detection%20with%20Amazon%20GuardDuty.md)        |     AWS    |GuardDuty, CloudFront, CloudFormation, OWASP Juice Shop|Detect Attacks with GuardDuty |
+| [**Automating Audits in AWS With Prowler**](./Cloud%20Labs/Automating%20Audits%20in%20AWS%20With%20Prowler.md)        |     AWS    | Prowler, CLI, Compliance Frameworks (NIST, HIPAA, CIS)|      Automate GRC in AWS     |
+| [**Azure DDoS Protection Hands-On Lab**](./Cloud%20Labs/Azure%20DDoS%20Protection%20Hands-On%20Lab.md)                |    Azure   |    Azure DDoS Protection, VNet, BreakingPoint Cloud   |  Defend Against DDoS Attack  |
+| [**Azure Firewall Hands-On Lab**](./Cloud%20Labs/Azure%20Firewall%20Hands-On%20Lab.md)                                |    Azure   |                 Azure Firewall, VNet, VM              |    Deploy an Azure Firewall  |
+| [**Home SOC Honeypot with Microsoft Sentinel**](./Cloud%20Labs/Home%20SOC%20Honeypot%20with%20Microsoft%20Sentinel.md)|    Azure   |    Microsoft Sentinel, KQL, VM, NSG, Log Analytics    |Trap Real Hackers in Honeypot |
 
 
 <br/>
@@ -42,12 +42,12 @@
 | [**Malware Traffic Analysis - OriginLogger**](./SOC%20Analyst%20Skills%20Labs/Malware%20Traffic%20Analysis%20-%20OriginLogger.md)|     Network Analysis    |  Wireshark, PCAP, Windows 11 |   Analyze Malware PCAP    |
 | [**Phishing Email Analysis Lab**](./SOC%20Analyst%20Skills%20Labs/Phishing%20Email%20Analysis%20Lab.md)                          | Phishing Email Analysis |  Spam, Thunderbird, VSCode   |Investigate Phishing Emails|
 | [**Learn Qualys Vulnerability Management**](./SOC%20Analyst%20Skills%20Labs/Learn%20Qualys%20Vulnerability%20Management.md)      |Vulnerability Management |Qualys, VirtualBox, Windows 11| Remediate Vulnerabilities |
-| [Coming Soon]()                                                                                                                  |  DFIR - Memory Analysis | -                            |      Coming Soon          |
-| [Coming Soon]()                                                                                                                  |   SIEM - Log Analysis   | -                            |      Coming Soon          |
-| [Coming Soon]()                                                                                                                  |           GRC           | -                            |      Coming Soon          |
-| [Coming Soon]()                                                                                                                  |     Malware Analysis    | -                            |      Coming Soon          |
-| [Coming Soon]()                                                                                                                  |   Threat Intelligence   | -                            |      Coming Soon          |
-| [Coming Soon]()                                                                                                                  |           EDR           | -                            |      Coming Soon          |
+| [Coming Soon]()                                                                                                                  |  DFIR - Memory Analysis | -                            |             -             |
+| [Coming Soon]()                                                                                                                  |   SIEM - Log Analysis   | -                            |             -             |
+| [Coming Soon]()                                                                                                                  |           GRC           | -                            |             -             |
+| [Coming Soon]()                                                                                                                  |     Malware Analysis    | -                            |             -             |
+| [Coming Soon]()                                                                                                                  |   Threat Intelligence   | -                            |             -             |
+| [Coming Soon]()                                                                                                                  |           EDR           | -                            |             -             |
 
 
 <br/>
@@ -62,10 +62,10 @@
 |                                              **Project**                                             |**Language**|              **Objective**              |
 | -----------------------------------------------------------------------------------------------------|------------|-----------------------------------------|
 | [**Multi‑Threaded Python Port Scanner**](./Coding%20Labs/Multi‑Threaded%20Python%20Port%20Scanner.md)| Python     |Build a high‑performance TCP port scanner|
-| [Coming Soon]()                                                                                      | Python     |Coming Soon                              |
-| [Coming Soon]()                                                                                      | Rust       |Coming Soon                              |
-| [Coming Soon]()                                                                                      | Rust       |Coming Soon                              |
-| [Coming Soon]()                                                                                      | C          |Coming Soon                              |
+| [Coming Soon]()                                                                                      | Python     |                    -                    |
+| [Coming Soon]()                                                                                      | Rust       |                    -                    |
+| [Coming Soon]()                                                                                      | Rust       |                    -                    |
+| [Coming Soon]()                                                                                      | C          |                    -                    |
 
 
 <br/>
@@ -79,11 +79,11 @@
 
 |                       **Project**                     |             **Tools Used**              |    **Objective**  |
 | ------------------------------------------------------|-----------------------------------------|-------------------|
-| [Coming Soon]()                                       | -                                       |    Coming Soon    |
-| [Coming Soon]()                                       | -                                       |    Coming Soon    |
-| [Coming Soon]()                                       | -                                       |    Coming Soon    |
-| [Coming Soon]()                                       | -                                       |    Coming Soon    |
-| [Coming Soon]()                                       | -                                       |    Coming Soon    |
+| [Coming Soon]()                                       | -                                       |         -         |
+| [Coming Soon]()                                       | -                                       |         -         |
+| [Coming Soon]()                                       | -                                       |         -         |
+| [Coming Soon]()                                       | -                                       |         -         |
+| [Coming Soon]()                                       | -                                       |         -         |
 
 
 <br/>
