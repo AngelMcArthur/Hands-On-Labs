@@ -14,15 +14,15 @@
 
 Learn to build a complete AWS security monitoring system! Follow along as we set up real-time alerts whenever someone accesses your sensitive secrets in AWS.
 
-In this hands-on tutorial, you'll learn how to:
-✅ Securely store a secret in AWS Secrets Manager
-✅ Set up CloudTrail to track ALL attempts to see your secret
-✅ Create CloudWatch metrics and alarms for monitoring
-✅ Configure SNS notifications to get emails 
-✅ Troubleshoot common issues in your security and monitoring system
+- In this hands-on tutorial, you'll learn how to:
+	- ✅ Securely store a secret in AWS Secrets Manager
+	- ✅ Set up CloudTrail to track ALL attempts to see your secret
+	- ✅ Create CloudWatch metrics and alarms for monitoring
+	- ✅ Configure SNS notifications to get emails 
+	- ✅ Troubleshoot common issues in your security and monitoring system
 
 🔥 WHY THIS MATTERS:
-Ever wondered how to keep tabs on who’s accessing your most sensitive data in AWS? Whether it’s API keys, database credentials, or other critical secrets, it's a security risk every time someone accesses your confidential information. That's why companies invest heavily in robust monitoring systems to track and alert on any unusual activity.
+- Ever wondered how to keep tabs on who’s accessing your most sensitive data in AWS? Whether it’s API keys, database credentials, or other critical secrets, it's a security risk every time someone accesses your confidential information. That's why companies invest heavily in robust monitoring systems to track and alert on any unusual activity.
 
 Protecting data is an essential skill for roles like:
 - Cloud Security Engineers
