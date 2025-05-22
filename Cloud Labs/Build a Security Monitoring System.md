@@ -454,54 +454,54 @@ aws cloudwatch set-alarm-state \
 
 - ![image](https://github.com/user-attachments/assets/e18ee26e-ced2-45a9-8d93-af81e20e8be7)
 - The commands have now been executed. Let's see if we get an email. There should be a notification email that your alarm is in alarm, and "Manually triggered for testing" as the reason. It looks like we received an email!
-- 
+- ![image](https://github.com/user-attachments/assets/de7332dd-0022-44b4-bda2-c6be8fb84ba8)
 - So we know that the CloudWatch Alarm can trigger SNS and send an email, so maybe it's just not being triggered. We're about to go down into our final investigation. We'll go back to CloudWatch and in he left navigation pane click the "Alarms" drop down menu and then click "All alarms".
-- 
+- ![image](https://github.com/user-attachments/assets/ae15b041-9f53-49db-88f3-dcef99b4ceb9)
 - Then select your alarm in the checkbox, and then look above to the "Actions" drop down menu. Click it and then click "Edit".
-- 
+- ![image](https://github.com/user-attachments/assets/3422683b-b56d-4883-b2cb-2bc270d2139d)
 - On this page click on the graph to enlarge it so we can see the anomalies. Here we get a closer look at what may be the issue. The alarms are being triggered, but the amount is not reaching the threshold of `1` and is instead reaching only `0.1`.
-- 
+- ![image](https://github.com/user-attachments/assets/54a1c749-1cfc-4606-b620-b1d35a4efe24)
 - The issue is that our "Statistics" are set to "Average"! It should be instead set to "Sum". Here's why:
 	- **Sum** adds up **all** occurrences of secret access in the period (what we want).
 	- **Average** would calculate an average rate (i.e the average number of times our secret was accessed per second over the 5 minute period), which might not cross our threshold.
 - Now that we got that settled, change the "Statistic" dropdown from "Average" to "Sum".
-- 
+- ![image](https://github.com/user-attachments/assets/5eb7d464-8856-47df-bb9d-220134a093d8)
 - You can also update the "Period" from "5 minutes" to "1 minute", so we can trigger the alarm even faster when we see the Secret's value.
-- 
+- ![image](https://github.com/user-attachments/assets/43b7d862-120f-4978-876f-d33e3b03df72)
 - Now that we're done, click "Skip to Preview and create" at the bottom of the page.
-- 
+- ![image](https://github.com/user-attachments/assets/a955331d-4e2b-403a-8ea8-eba27a7e72cc)
 - Scroll down to the bottom of the page again and click "Update alarm".
-- 
+- ![image](https://github.com/user-attachments/assets/55539cec-a322-4420-a6ca-e716a767f90e)
 - Now we know that CloudWatch Alarms threshold configuration was the issue, but we still would like to check SNS email delivery to make sure that was fine as well.
-- 
+- ![image](https://github.com/user-attachments/assets/4c9a9d51-2b04-4be3-85dd-b3aaf2de665e)
 - Search for SNS in the search bar and click on it's name.
-- 
+- ![image](https://github.com/user-attachments/assets/ba89a7d1-2ac2-4a3d-ab4d-8fae5e6c9010)
 - Here is the page for SNS. Click on "Topics" in the left navigation pane.
-- 
+- ![image](https://github.com/user-attachments/assets/cf24dbec-28a0-4e61-9a1b-113e46d383eb)
 - Here we see our topic `SecurityAlarms`. Select it and then click "Publish message".
-- 
+- ![image](https://github.com/user-attachments/assets/3862965d-00d2-42ac-9198-1ab12c2b7963)
 - You're brought to the "Publish message to topic" page.
-- 
+- ![image](https://github.com/user-attachments/assets/a3e6a89c-5d0e-4015-be4d-5484d2aef20b)
 - In the "Message details" section, under the "Subject - optional" subsection, enter `Testing`. In the "Message body" section, and under the "Message body to send to the endpoint" subsection, put whatever you want, but I will put a simple `Wassup`.
-- 
+- ![image](https://github.com/user-attachments/assets/cf34206a-1251-4174-a0d9-31b856235951)
 - Leave everything else as default. Message attributes is just for metadata if you want to include it for easier organization. Scroll down to the bottom and click "Publish message".
-- 
+- ![image](https://github.com/user-attachments/assets/3064aa09-c986-4865-8b5f-98aa38d759d3)
 - You should see a green confirmation banner at the top of your page.
-- 
+- ![image](https://github.com/user-attachments/assets/5fad3981-8fcd-4e5d-aa3b-bbaf4aa15c15)
 - Check your email for the `Wassup` message. Looks like it is there, confirming that SNS is working ✅
-- 
+- ![image](https://github.com/user-attachments/assets/19d07247-f5a5-47c4-bed0-bb1153b710c7)
 - With that troubleshooting is now complete! With the investigation over, let's go ahead and access our secret one more time to validate! Reveal the secret and see if you get an email.
-- 
+- ![image](https://github.com/user-attachments/assets/0334c93d-8ab8-4e76-9737-ce2bbd1cf258)
 - While you wait for your email, check in your CloudWatch alarm to see if it is going off. Here we can confirm that it is **In Alarm** mode after about 2 minutes. For some reason the spike on the graph is not showing for me but instead shows up as a small blue dot. Regardless, it is still there.
-- 
+- ![image](https://github.com/user-attachments/assets/d0ddfa9e-02a8-4fc2-b008-9e4f23a9f4e1)
 - I went into another graph from where we go to edit the alarm, and it gave a better view. You can actually see the spike and where it touches the threshold.
-- 
+- ![image](https://github.com/user-attachments/assets/d822de01-57a0-4a9a-9e06-798bfe6f0f5e)
 - Now that some time has passed, it shows better on the main graph as well.
-- 
+- ![image](https://github.com/user-attachments/assets/d528dc0e-5d0e-4e21-99c8-46031a0284cf)
 - *(Note - Don't forget you can change the time periods to get better views of the graph by zooming in or zooming out of a specific time period.)*
-- 
+- ![image](https://github.com/user-attachments/assets/9f039e34-e2c7-4334-b309-d7089da7fd48)
 - Going to the emails, we can see we have been alerted from there.
-- 
+- ![image](https://github.com/user-attachments/assets/cb3a3b07-83b9-4af7-ba19-2e3b85d0fc6b)
 - Our Security Monitoring System is working! 🎉
 - Now we are complete with **Step 6 - Test Email Notification!
 
@@ -512,55 +512,55 @@ aws cloudwatch set-alarm-state \
 ## Before you go: Delete your resources
 
 - Head to S3 so that we can delete everything in the bucket, which will be an assortment of logs.
-- 
+- ![image](https://github.com/user-attachments/assets/b7f772f1-8427-453b-898c-a6b71004f8c8)
 - Here is the S3 main page. We'll delete the logs and then the bucket itself. 
-- 
+- ![image](https://github.com/user-attachments/assets/a9648486-2f61-420c-ad8f-b07d8777df9f)
 - Select your bucket (don't click on the name) and click "Empty" in the above selections.
-- 
+- ![image](https://github.com/user-attachments/assets/77be58cc-07ee-4242-92c8-7c7950578348)
 - You'll get a warning and be prompted to type `permanently delete` before clicking "Empty".
-- 
+- ![image](https://github.com/user-attachments/assets/33c628b1-c126-4dc0-bea8-df342b70d025)
 - Once done, you'll receive a confirmation:
-- 
+- ![image](https://github.com/user-attachments/assets/c4b494f8-f7a1-4c23-8fae-dd766b67629a)
 - Now we will delete the actual bucket. Head back to S3 by clicking "Exit". Then select the bucket again and click "Delete" from the upper selections. Once you do that then you'll be brought to this screen where another warning will pop up and this time ask you to input the name of your bucket `secrets-manager-trail-am`. Enter it and then click "Delete bucket".
-- 
+- ![image](https://github.com/user-attachments/assets/b898314e-01d7-42d3-a709-e13eb23fe633)
 - And with that we have successfully deleted our S3 bucket.
-- 
+- ![image](https://github.com/user-attachments/assets/235fc253-f825-4c26-a4e6-e64f24a3175c)
 - Now we must move on to CloudTrail. head there and then head to Trails. Click on your Trail, and then click the "Delete" button in the top right corner. 
-- 
+- ![image](https://github.com/user-attachments/assets/ee947202-cc70-4a95-ae6c-6030715179d3)
 - You will receive a warning. Click "Delete" again.
-- 
+- ![image](https://github.com/user-attachments/assets/38ce025e-165c-4654-bf44-f7616e394a94)
 - Confirmed!
-- 
+- ![image](https://github.com/user-attachments/assets/cb6c5f09-47f7-4862-b33f-e683f5123f32)
 - Let's head to CloudWatch. Click on "Alarms" in the left navigation pane, then "All Alarms". You'll see your alarm. Click into it. Then click "Actions" and click "Delete".
-- 
+- ![image](https://github.com/user-attachments/assets/efdc2ad2-99b7-4b52-ae31-af2baa5708a6)
 - Confirm the deletion by clicking "Delete" again.
-- 
+- ![image](https://github.com/user-attachments/assets/a9b231ce-2b1f-4f17-a2a6-05a7b6d8f6be)
 - Confirmed!
-- 
+- ![image](https://github.com/user-attachments/assets/522b8b0d-46c3-4287-ba91-37daa3b408ae)
 - The alarm is deleted. What's next is for us to delete the Log group. Click "Logs" in the left navigation pane, then "Log groups". Select your log group and then click the "Actions" button, and finally the "Delete log group(s)" option.
-- 
+- ![image](https://github.com/user-attachments/assets/d05f7168-4d3f-4977-be59-8916968b3543)
 - Then click "Delete" again.
-- 
+- ![image](https://github.com/user-attachments/assets/3195d468-39e4-4c49-9c00-d16a6757c645)
 - Confirmed!
-- 
+- ![image](https://github.com/user-attachments/assets/4d16f19b-5030-4628-b30e-e1f61f1e2cf5)
 - Now we need to go to Secrets Manager. Once there, click into your secret. Click the "Actions" button in the the "Secret details" section. Click the "Delete secret" option.
-- 
+- ![image](https://github.com/user-attachments/assets/ee52d407-77c7-44a4-b4eb-f1094ad1f683)
 - You're now brought up with a warning saying that Secrets Manager doesn't delete the secret right away, and instead waits 7 days, just in case you still you need it for security purposes.
-- 
+- ![image](https://github.com/user-attachments/assets/9d28e96c-ea8e-4d5f-8aaa-f14402f9851d)
 - Confirmed!
-- 
+- ![image](https://github.com/user-attachments/assets/440029f0-3076-46c3-a1fe-c31aa9166abf)
 - Last to delete is SNS. Head over to SNS, select Topics, then select your topic (don't click the name), then click "Delete" in the upper right hand corner.
-- 
+- ![image](https://github.com/user-attachments/assets/381922c5-15af-49ce-b7b6-af240f6d737c)
 - To confirm deletion, it asks you to type the phrase `delete me`. Then click "Delete".
-- 
+- ![image](https://github.com/user-attachments/assets/962eabcc-5e2d-4369-b59c-f1818d9fe2f1)
 - Confirmed!
-- 
+- ![image](https://github.com/user-attachments/assets/c5693854-ed10-44b9-8ee6-e655f802ffc9)
 - Now that the Topic is deleted, let's make sure to delete the Subscription as well. Click it in the left hand navigation pane. Select it, and click "Delete".
-- 
+- ![image](https://github.com/user-attachments/assets/9cdfc562-72b5-47fb-ad5d-9c10339531d8)
 - Confirm the deletion by clicking "Delete".
-- 
+- ![image](https://github.com/user-attachments/assets/682a3ddf-2971-4cec-885b-4abf8a37d0be)
 - Confirmed!
-- 
+- ![image](https://github.com/user-attachments/assets/56398cb1-dc82-498e-8435-ab2d52bdbf03)
 - That completes our project!
 
 Today, we accomplished a significant feat: building a robust security monitoring system in AWS! We leveraged several key services to achieve this, and I want to highlight the core learnings from each:
@@ -585,7 +585,7 @@ Today, we accomplished a significant feat: building a robust security monitoring
 
 This project provides a solid foundation for understanding and implementing AWS security monitoring, a crucial skill for anyone working in cloud environments.
 
-- 
-- 
+- ![image](https://github.com/user-attachments/assets/4b7690a1-3fbc-48e9-9eb0-c109fbcbc533)
+- ![image](https://github.com/user-attachments/assets/017e5cb1-204d-478d-acbf-1a00f838ee50)
 
 ---
