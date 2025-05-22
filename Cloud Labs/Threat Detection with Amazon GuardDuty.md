@@ -115,7 +115,7 @@ Understanding these concepts is essential for developing secure web applications
 - ![image](https://github.com/user-attachments/assets/eddbfb6c-faa9-4267-a009-80a4354e7014)
 - For the "**Prerequisite - Prepare template**" section, within the "**Prepare template**" subsection, we'll leave the default option of "**Choose and existing template**".
 - ![image](https://github.com/user-attachments/assets/2ae2c578-d686-48b6-8460-e4d0e6fe8558)
-- In the "**Specify template**" section, within the "**Template source**" subsection, we'll select the "**Upload a template file**" option. Then choose the project file "**`nextwork-guardduty-setup.yaml`**" (I'll provide it somewhere in my GitHub). Once you upload the file, an S3 URL will be generated. Once you're done, click "**Next**".
+- In the "**Specify template**" section, within the "**Template source**" subsection, we'll select the "**Upload a template file**" option. Then choose the project file "**`nextwork-guardduty-setup.yaml`**" (I'll provide it **[here](./Assets/Threat%20Detection%20with%20Amazon%20GuardDuty%20Assets/nextwork-guardduty-setup.yaml)**). Once you upload the file, an S3 URL will be generated. Once you're done, click "**Next**".
 - ![image](https://github.com/user-attachments/assets/285096ea-c960-4b18-b62f-fd480b2d58f1)
 
 <br/>
